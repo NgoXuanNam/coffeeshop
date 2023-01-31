@@ -565,6 +565,22 @@ body{
 
 /* <!-- footer section starts --> */
 
+.onScrollTop.active{
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: red;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
 
 
 
